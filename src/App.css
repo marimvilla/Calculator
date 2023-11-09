@@ -1,0 +1,32 @@
+.App{
+    height: 100vh;
+    padding-top: 15px;
+    background: linear-gradient(45deg, #533234, #8baab5, #9b7362);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-container{
+    width: 400px;
+    height: 600px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    border: 5px outset;
+    margin: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
